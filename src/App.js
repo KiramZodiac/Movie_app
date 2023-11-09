@@ -12,6 +12,7 @@ const App = () => {
   const movieList = movies.map((movie) => {
     return (
       <div className="movies">
+        <h1>Kiram movie app</h1>
         <img height="200px" width="200px" src={movie.Poster} alt="img" />
         <h1>{movie.Title}</h1>
         <h2>{movie.Year}</h2>
