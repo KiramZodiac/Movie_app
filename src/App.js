@@ -35,6 +35,10 @@ const App = () => {
     <div className="App">
       <h1>Kiram movie app</h1>
       <h1>welcome to the movie life</h1>
+      <p>
+        u can watch all the movies using our movi app,go to google play store or
+        ios store to watch and download
+      </p>
       <SearchBox searchValue={searchValue} setSearch={setSearchValue} />
       {movieList}
     </div>
