@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import SearchBox from "./SearchBox";
-
+import Favourites from "./Favourites";
 import { useState, useEffect } from "react";
 
 const App = () => {
@@ -15,6 +15,7 @@ const App = () => {
         <img height="200px" width="200px" src={movie.Poster} alt="img" />
         <h1>{movie.Title}</h1>
         <h2>{movie.Year}</h2>
+        <Favourites />
       </div>
     );
   });
