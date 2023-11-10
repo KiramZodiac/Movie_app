@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className="App">
       <h1>Kiram movie app</h1>
-      <h1>hello movies</h1>
+      <h1>welcome to the movie life</h1>
       <SearchBox searchValue={searchValue} setSearch={setSearchValue} />
       {movieList}
     </div>
